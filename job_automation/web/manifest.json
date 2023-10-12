@@ -1,0 +1,25 @@
+{
+    "name": "job_automation",
+    "description": "Chrome  Extention to write an automated cover letter for every new job role.",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "permissions": ["contextMenus", "clipboardWrite", "clipboardRead"],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "icons/CL_16.png",
+            "32": "icons/CL_32.png",
+            "48": "icons/CL_48.png",
+            "128": "icons/CL_128.png"
+        }
+    },
+    "icons": {
+        "16": "icons/CL_16.png",
+        "32": "icons/CL_32.png",
+        "48": "icons/CL_48.png",
+        "128": "icons/CL_128.png"
+    }
+}
